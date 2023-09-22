@@ -11,7 +11,7 @@ const {searchEvent, event_category}= useEvents()
       <input type="text" placeholder="Search for an Event" class="outline-none text-secondaryGray" />
     </div>
 
-    <select v-model="event_category" class="text-secondaryGray md:border-l-2 border-slate-200 md:pl-6 h-10 w-full outline-none">
+    <select v-model="event_category" class="text-secondaryGray bg-white md:border-l-2 border-slate-200 md:pl-6 h-10 w-full outline-none">
       <option value="" disabled selected>Categories</option>
       <option value="">All</option>
       <option value="conference">Conference</option>
