@@ -29,7 +29,7 @@ const { currentPage, totalPages, pages, setCurrentPage } = usePagination(
       <button
         @click="setCurrentPage(pageNumber)"
         :class="{
-          'bg-gray-900 text-white': currentPage === pageNumber,
+          'bg-primary2 text-black font-extrabold': currentPage === pageNumber,
           'text-gray-700 hover:bg-purple-200': currentPage !== pageNumber,
           'mx-1': currentPage !== pageNumber,
         }"
